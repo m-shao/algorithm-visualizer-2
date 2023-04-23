@@ -48,7 +48,6 @@ function SortingAlgorithms({barCount, playing}) {
 				arr[j + 1] = temp;
 				setSortingArr(arr)
 				setState(Flip.getState(".arr1"))
-				console.log(arr)
 				await new Promise(resolve => setTimeout(resolve, 1000));
 			  }
 			}
